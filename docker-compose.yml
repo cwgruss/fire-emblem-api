@@ -1,0 +1,5 @@
+version: "3.0"
+services:
+    three-houses-api:
+        build: "./three-houses-api"
+        env_file: "./three-houses-api/.env"

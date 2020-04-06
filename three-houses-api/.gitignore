@@ -1,0 +1,22 @@
+
+# compiled output
+/dist
+/tmp
+/deploy
+
+# dependencies
+node_modules
+
+# environment
+.env
+
+# IDEs
+/.idea
+/.vscode/launch.json
+/*.iml
+
+# misc
+.DS_Store
+/.sass-cache
+/.chrome
+/.git
