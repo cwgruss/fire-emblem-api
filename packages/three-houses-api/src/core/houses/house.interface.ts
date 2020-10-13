@@ -9,5 +9,5 @@ export interface FireEmblemHouse {
     name: string;
     members: Character[];
     description: string;
-    image: string;
+    images: string[];
 }
