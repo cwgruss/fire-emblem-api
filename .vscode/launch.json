@@ -1,0 +1,22 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Nest API",
+      "program": "${workspaceFolder}/packages/three-houses-api/src/main.ts",
+      "sourceMaps": true,
+      "console": "internalConsole",
+      "preLaunchTask": "tsc: watch - packages/three-houses-api/tsconfig.build.json",
+      "outFiles": ["${workspaceFolder}/packages/three-houses-api/dist/**/*.js"],
+      "skipFiles": [
+        "${workspaceFolder}/packages/three-houses-api/node_modules/**/*.js",
+        "<node_internals>/**"
+      ]
+    }
+  ]
+}
